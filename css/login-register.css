@@ -1,0 +1,93 @@
+/*
+====================================
+  STYLES FOR LOGIN & REGISTER PAGES
+====================================
+*/
+
+/* --- Main Container --- */
+/* This creates a full-screen container that centers the form card vertically */
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f7f6f4; /* Using your theme's light background */
+    padding: 2rem 0;
+}
+
+/* --- Form Card --- */
+/* The white box that holds the form content */
+.form-card {
+    width: 100%;
+    max-width: 450px;
+    background: #ffffff;
+    padding: 2.5rem 3rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(100, 92, 92, 0.1);
+    border: 1px solid #ececec;
+}
+
+/* --- Form Title --- */
+.form-title {
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+/* --- Form Elements --- */
+.form-label {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #495057;
+}
+
+.form-control {
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Style for when an input field is selected (focused) */
+.form-control:focus {
+    border-color: #ad7d52;
+    box-shadow: 0 0 0 0.25rem rgba(173, 125, 82, 0.25);
+}
+
+/* --- Buttons and Links --- */
+.form-card .btn-primary {
+    background-color: #333;
+    border-color: #333;
+    padding: 0.75rem;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 8px;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.form-card .btn-primary:hover {
+    background-color: #ad7d52; /* Your theme's accent color */
+    border-color: #ad7d52;
+}
+
+.form-card p {
+    font-family: 'Raleway', sans-serif;
+    color: #6c757d;
+}
+
+.form-card a {
+    color: #ad7d52; /* Your theme's accent color */
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.form-card a:hover {
+    text-decoration: underline;
+}
+
+/* --- Show Password Icon --- */
+/* Add a pointer cursor to the eye icon to show it's clickable */
+#togglePassword {
+    cursor: pointer;
+}

@@ -1,0 +1,100 @@
+/*
+====================================
+  STYLES FOR CHECKOUT PAGE
+====================================
+*/
+html {
+    scroll-behavior: smooth;
+}
+
+.page-header {
+    background-color: #a09f9e;
+    padding: 2rem 0;
+    text-align: center;
+    color: #333333;
+}
+.page-header h1 {
+    font-family: "Cinzel Decorative", serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.navp {
+    padding-top: 75px;
+}
+.cart-section {
+    padding: 4rem 0;
+    background: #fff;
+}
+
+.checkout-section {
+    padding: 4rem 0;
+    background-color: #f7f6f4;
+}
+.billing-details-card, .order-summary-card {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.05);
+}
+.card-title {
+    font-family: "Cinzel Decorative", serif;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.form-label {
+    font-weight: 600;
+    color: #495057;
+    font-family: 'Raleway', sans-serif;
+}
+.form-control {
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+}
+.form-control:focus {
+    border-color: #ad7d52;
+    box-shadow: 0 0 0 0.25rem rgba(173, 125, 82, 0.25);
+}
+.order-summary-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.order-summary-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #e0e0e0;
+    font-family: 'Raleway', sans-serif;
+}
+.order-summary-list li span {
+    color: #6c757d;
+}
+.order-total {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+.payment-methods {
+    padding: 1rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background: #fff;
+}
+.payment-methods .form-check {
+    margin-bottom: 0.5rem;
+}
+.checkout-btn {
+    background-color: #333;
+    border-color: #333;
+    padding: 0.75rem;
+    font-weight: 600;
+    border-radius: 8px;
+}
+.checkout-btn:hover {
+    background-color: #ad7d52;
+    border-color: #ad7d52;
+}

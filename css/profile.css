@@ -1,0 +1,91 @@
+/*
+====================================
+  STYLES FOR USER PROFILE PAGE
+====================================
+*/
+html{
+    scroll-behavior: smooth;
+}
+.page-header {
+    background-color: #a09f9e;
+    padding: 4rem 0;
+    text-align: center;
+    color: #333333;
+}
+.page-header h1 {
+    font-family: "Cinzel Decorative", serif;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.page-header p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    color: #645c5c;
+}
+.navp {
+    padding-top: 72px;
+}
+
+.profile-section {
+    padding: 4rem 0;
+    background-color: #f7f6f4;
+}
+
+/* --- Stat Cards --- */
+.stat-card {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e9ecef;
+    margin-bottom: 2rem;
+}
+
+.stat-card h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    color: #6c757d;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    margin-bottom: 0.5rem;
+}
+
+.stat-card p {
+    font-family: 'Cinzel', serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #ad7d52;
+    margin: 0;
+}
+
+/* --- Order History Card --- */
+.order-history-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e9ecef;
+    padding: 2rem;
+}
+
+.order-history-card .card-title {
+    font-family: "Cinzel Decorative", serif;
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.order-history-card .table {
+    vertical-align: middle;
+}
+
+.order-history-card .table thead th {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    border-bottom-width: 2px;
+}
+
+.bg-green {
+    background-color: #28a745 !important;
+    
+}

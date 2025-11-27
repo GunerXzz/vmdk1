@@ -1,0 +1,100 @@
+.navp{
+    padding-top: 5rem;
+}
+
+
+/* --- Mission Section --- */
+.mission-section {
+    padding: 6rem 0;
+    background-color: #f7f6f4; /* A light, complementary background */
+    text-align: center;
+}
+
+.mission-section .mission-title {
+    font-family: "Cinzel Decorative", serif;
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: 700;
+}
+
+.mission-section .mission-text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 1rem auto 0 auto;
+    color: #645c5c;
+    line-height: 1.8;
+}
+
+/* --- Team / Founder Section --- */
+.team-section {
+    padding: 6rem 0;
+    background-color: #ffffff;
+}
+
+.team-section .founder-img {
+    width: 100%;
+    max-width: 380px;
+    border-radius: 16px;
+    box-shadow: 0 15px 40px rgba(100, 92, 92, 0.15);
+}
+
+.team-section .founder-name {
+    font-family: "Cinzel", serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.team-section .founder-title {
+    font-family: 'Raleway', sans-serif;
+    color: #ad7d52; /* Using your theme's accent color */
+    font-weight: 600;
+    margin-top: -5px;
+    margin-bottom: 1.5rem;
+}
+
+/* --- Process Section --- */
+.process-section {
+    padding: 6rem 0;
+    background-color: #f7f6f4; /* Alternating background color */
+}
+
+/* The .post-entry styles from your main CSS will be used here */
+.process-section .section-subtitle {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
+    color: #645c5c;
+    margin-top: -1rem;
+    margin-bottom: 3rem;
+}
+
+/* --- Call to Action (CTA) Section --- */
+.cta-section {
+    padding: 6rem 0;
+    background-color: #a09f9e; /* Using your theme's primary color */
+    color: #333;
+}
+
+.cta-section .cta-title {
+    font-family: "Cinzel Decorative", serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.cta-section .cta-text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 1rem auto 2rem auto;
+}
+
+/* Responsive styles for new sections */
+@media (max-width: 991px) {
+    .team-section .founder-img {
+        margin-bottom: 2rem;
+    }
+    .team-section .col-lg-6 {
+        text-align: center;
+    }
+}

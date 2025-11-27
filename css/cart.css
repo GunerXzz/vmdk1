@@ -1,0 +1,141 @@
+/*
+====================================
+  STYLES FOR ADVANCED CART PAGE
+====================================
+*/
+html {
+    scroll-behavior: smooth;
+}
+
+.page-header {
+    background-color: #a09f9e;
+    padding: 4rem 0 ;
+    text-align: center;
+    color: #333333;
+}
+.page-header h1 {
+    font-family: "Cinzel Decorative", serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.navp {
+    padding-top: 92px;
+}
+.cart-section {
+    padding: 4rem 0;
+    background: #fff;
+}
+.table-responsive {
+    overflow-x: auto;
+}
+.cart-table {
+    width: 100%;
+    vertical-align: middle;
+    color: #333;
+    font-family: 'Raleway', sans-serif;
+}
+.cart-table thead {
+    border-bottom: 2px solid #e0e0e0;
+}
+.cart-table th {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: .5px;
+    padding: 1rem;
+    color: #645c5c;
+    border: none;
+    text-align: center;
+}
+.cart-table tbody tr {
+    border-bottom: 1px solid #f0f0f0;
+}
+.cart-table tbody td {
+    padding: 1.5rem 1rem;
+    text-align: center;
+}
+.cart-item-img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.product-title-cart {
+    font-family: 'Cinzel', serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 0;
+}
+.quantity-container {
+    max-width: 130px;
+    margin: 0 auto;
+}
+.quantity-container .form-control {
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+}
+.quantity-container .btn {
+    border-color: #ced4da;
+    background-color: #f8f9fa;
+}
+.remove-item-btn {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #dc3545;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+.remove-item-btn:hover {
+    color: #842029;
+    transform: scale(1.2);
+}
+.cart-actions {
+    margin-top: 1.5rem;
+}
+.cart-actions .btn {
+    margin-right: 0.5rem;
+}
+.cart-summary {
+    background: #f7f6f4;
+    padding: 2rem;
+    border-radius: 12px;
+}
+.summary-title {
+    font-family: "Cinzel Decorative", serif;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.summary-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    font-family: 'Raleway', sans-serif;
+}
+.summary-item .label { color: #645c5c; }
+.summary-item .value { font-weight: 600; }
+.summary-item.total .label,
+.summary-item.total .value {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #333;
+}
+.checkout-btn {
+    background-color: #333;
+    border-color: #333;
+    padding: 0.75rem;
+    font-weight: 600;
+    border-radius: 8px;
+    font-family: 'Raleway', sans-serif;
+}
+.checkout-btn:hover {
+    background-color: #ad7d52;
+    border-color: #ad7d52;
+}
+.cart-empty-message {
+    border: 1px dashed #e0e0e0; padding: 3rem 2rem; background-color: #f7f6f4; border-radius: 12px; text-align: center;
+}
+.cart-empty-message p { font-size: 1.1rem; color: #645c5c; margin: 0; }
+.cart-empty-message a { color: #ad7d52; font-weight: 600; text-decoration: none; border-bottom: 2px solid transparent; transition: border-color 0.3s ease; }
+.cart-empty-message a:hover { border-color: #ad7d52; }

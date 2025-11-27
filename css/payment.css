@@ -1,0 +1,84 @@
+/*
+====================================
+  STYLES FOR PAYMENT METHOD SELECTION
+====================================
+*/
+
+.payment-options-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #495057;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.payment-option {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.payment-option input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.payment-option label {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    border: 2px solid #e9ecef;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background-color: #fff;
+}
+
+.payment-option label:hover {
+    border-color: #ced4da;
+}
+
+.payment-option input[type="radio"]:checked + label {
+    border-color: #ad7d52;
+    background-color: #fcf6f1;
+    box-shadow: 0 0 0 2px #ad7d52;
+}
+
+.payment-option .payment-logo {
+    height: 30px;
+    margin-right: 1rem;
+}
+
+.payment-option .payment-name {
+    font-weight: 600;
+    color: #333;
+}
+
+.payment-option .payment-description {
+    font-size: 0.85rem;
+    color: #6c757d;
+    margin-left: auto;
+}
+
+/* --- QR Code Display --- */
+#qr-code-display {
+    display: none; /* Hidden by default */
+    padding: 1.5rem;
+    margin-top: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    text-align: center;
+}
+
+#qr-code-display img {
+    max-width: 200px;
+    margin-bottom: 1rem;
+}
+
+#qr-code-display p {
+    margin: 0;
+    color: #333;
+    font-weight: 500;
+}
